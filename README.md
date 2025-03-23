@@ -1,12 +1,22 @@
-# React + Vite
+# Lista de Tarefas
+Projeto da Faculdade no qual foi desenvolvida uma lista de tarefas. Exploramos a criação de componentes reutilizáveis como o Header. A biblioteca React nos permitiu utilizar dos chamados Hooks:
+useState e useEffect.
+Os hooks são funções do React que nos permitirão conectar (anexar ou anexar uma funcionalidade ao componente) ao estado e ao ciclo de vida da aplicação (entre outras funcionalidades). Eles foram criados especificamente para componentes funcionais.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Desafios:
+Compreender a lógica das funções.<br>
+Conhecer sobre a biblioteca Material UI, utilizada para criar interfaces gráficas.<br>
+Utilizar a ferramenta Vite para agilizar o ambiente de desenvolvimento.<br>
+Maior compreensão sobre importação e exportação de componentes.
 
-Currently, two official plugins are available:
+## Ferramentas:
+<ul>
+  <li>Vite</li>
+<li>Github</li>
+<li>VSCode</li>
+<li>Material UI</li>
+<li>React</li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Linguagens:
+<li>JSX(HTML, CSS, JAVASCRIPT)</li>
