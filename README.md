@@ -1,4 +1,7 @@
 # Lista de Tarefas
+<div align="center">
+<img width="650px" src="https://github.com/user-attachments/assets/8f6c9fbd-44ee-4253-8374-f8758febc1ab" />
+</div><br>
 Projeto da Faculdade no qual foi desenvolvida uma lista de tarefas. Exploramos a criação de componentes reutilizáveis como o Header. A biblioteca React nos permitiu utilizar dos chamados Hooks:
 useState e useEffect.
 Os hooks são funções do React que nos permitirão conectar (anexar ou anexar uma funcionalidade ao componente) ao estado e ao ciclo de vida da aplicação (entre outras funcionalidades). Eles foram criados especificamente para componentes funcionais.
