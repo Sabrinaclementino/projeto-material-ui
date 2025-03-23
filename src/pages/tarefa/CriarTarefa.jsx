@@ -9,7 +9,7 @@ import CardContent from "@mui/material/CardContent";
 import CardActions from "@mui/material/CardActions";
 import Button from "@mui/material/Button";
 
-export const CriarTarefa = ({ handleClose, tarefas, setTarefas }) => {
+ const CriarTarefa = ({ handleClose, tarefas, setTarefas }) => {
   const [idTarefa, setIdTarefa] = useState();
   const [tituloTarefa, setTituloTarefa] = useState("");
   const [descricaoTarefa, setDescricaoTarefa] = useState("");
@@ -21,7 +21,7 @@ export const CriarTarefa = ({ handleClose, tarefas, setTarefas }) => {
   useEffect(() => {
     let proximoId = Math.max(...tarefas.map((tarefa) => tarefa.idTarefa)) + 1;
     setIdTarefa(proximoId);
-  }, []);
+  }, [tarefas]);
 
   const handleRecurso = (event) => {
     setRecursoTarefa(event.target.value);
@@ -209,3 +209,5 @@ const style = {
   bgcolor: "background.paper",
   p: 4,
 };
+
+export default CriarTarefa;
